@@ -36,12 +36,12 @@ curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4
 curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-u/light/index.php" > "../docs/b4t_classic-u/light/index.html"
 curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-w/dark/index.php" > "../docs/b4t_classic-w/dark/index.html"
 curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-w/light/index.php" > "../docs/b4t_classic-w/light/index.html"
-curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-modern-c/dark/index.php" > "../docs/b4t_modern-c/dark/index.html"
-curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-modern-c/light/index.php" > "../docs/b4t_modern-c/light/index.html"
-curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-modern-n/dark/index.php" > "../docs/b4t_modern-n/dark/index.html"
-curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-modern-n/light/index.php" > "../docs/b4t_modern-n/light/index.html"
-curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-modern-w/dark/index.php" > "../docs/b4t_modern-w/dark/index.html"
-curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_classic-modern-w/light/index.php" > "../docs/b4t_modern-w/light/index.html"
+curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_modern-c/dark/index.php" > "../docs/b4t_modern-c/dark/index.html"
+curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_modern-c/light/index.php" > "../docs/b4t_modern-c/light/index.html"
+curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_modern-n/dark/index.php" > "../docs/b4t_modern-n/dark/index.html"
+curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_modern-n/light/index.php" > "../docs/b4t_modern-n/light/index.html"
+curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_modern-w/dark/index.php" > "../docs/b4t_modern-w/dark/index.html"
+curl "http://localhost/~bram/github.com/atelierbram/Base4Tone-prism/src/views/b4t_modern-w/light/index.php" > "../docs/b4t_modern-w/light/index.html"
 }
 
 # execute it
