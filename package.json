@@ -1,0 +1,38 @@
+{
+  "name": "base4tone-prism",
+  "version": "1.0.0",
+  "description": "collection of colorschemes from 4 base hues",
+  "main": "gruntfile.js",
+  "scripts": {
+    "update:packages": "node ../../../js/snippets/npm-wipe-package-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://atelierbram@github.com/atelierbram/base4tone-prism.git"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "color-schemes"
+  ],
+  "author": "Atelierbram <atelierbramdehaan.nl>",
+  "license": "MIT",
+  "homepage": "https://atelierbram.github.io/base4tone-prism/",
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "autoprefixer": "*",
+    "cssnano": "*",
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-postcss": "*",
+    "grunt-sass": "*",
+    "load-grunt-tasks": "*",
+    "node-sass": "*"
+  }
+}
