@@ -11,14 +11,11 @@
     <?php else: ?>
     <style><?php include "../../inc/critical.css.inc"; ?></style>
     <?php endif ?>
-    <link rel="preload" href="<?= $assetUrl; ?>docs/assets/css/demo-<?= $theme; ?>.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="<?= $assetUrl; ?>docs/assets/css/demo-<?= $theme; ?>.min.css"></noscript>
+    <link rel="preload" href="<?= $assetUrl; ?>assets/css/demo-<?= $theme; ?>.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="<?= $assetUrl; ?>assets/css/demo-<?= $theme; ?>.min.css"></noscript>
 
-    <link rel="preload" href="<?= $assetUrl; ?>docs/assets/css/prism_<?= $theme; ?>-<?= $bg ?>.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <!-- <link rel="preload" href="<= $assetUrl; ?>build/assets/css/prism_<= $theme; ?>&#45;<= $bg ?>.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
-    <noscript><link rel="stylesheet" href="<?= $assetUrl; ?>docs/assets/css/prism_<?= $theme; ?>-<?= $bg ?>.min.css"></noscript>
-    <!-- test: -->
-    <!-- <link rel="stylesheet" href="< ?= $assetUrl; ?>output/prism-base4tone_< ?= $theme; ?>-< ?= $bg ?>.css">-->
+    <link rel="preload" href="<?= $assetUrl; ?>assets/css/prism_<?= $theme; ?>-<?= $bg ?>.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="<?= $assetUrl; ?>assets/css/prism_<?= $theme; ?>-<?= $bg ?>.min.css"></noscript>
     <?php if ($themeId == "planetsIndex"): ?>
     <script><?php include "inc/head-detect.js.inc"; ?></script>
     <?php else: ?>
