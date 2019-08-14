@@ -12,7 +12,7 @@ $swaptext1 = 'Color Schemes';
 $swaptext2 = 'B4T_Classic-D';
 include '../../inc/config.inc';
 include '../../inc/head.inc';
-include '../../inc/header/header-b4t_52.inc';
+include '../../inc/header/header-b4t_classic-d.inc';
 include '../../inc/nav-variation.inc';
 ?>
 <div class="container-flex" id="main">

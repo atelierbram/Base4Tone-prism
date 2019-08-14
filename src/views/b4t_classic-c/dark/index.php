@@ -13,7 +13,7 @@ $swaptext2 = 'B4T_Classic-C';
 include '../../inc/config.inc';
 include '../../inc/head.inc';
 // include '../../inc/header.inc';
-include '../../inc/header/header-b4t_37.inc';
+include '../../inc/header/header-b4t_classic-c.inc';
 include '../../inc/nav-variation.inc';
 ?>
 <div class="container-flex" id="main">
