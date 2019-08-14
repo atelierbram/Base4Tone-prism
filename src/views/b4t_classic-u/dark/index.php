@@ -2,7 +2,7 @@
 $title = 'Colorschemes';
 $type = 'page';
 $theme = 'b4t_Classic-U';
-$themeId = 'b4t_307';
+$themeId = 'b4t_classic-u';
 $id = 'b4t_307';
 $description = 'B4T_Classic-U';
 $relPath = "../..";

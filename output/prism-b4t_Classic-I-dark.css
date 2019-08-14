@@ -1,10 +1,10 @@
-/* colorscheme: B4T_Guano by Bram de Haan */
+/* colorscheme: B4T_Classic_I by Bram de Haan */
 /* author: Bram de Haan - https://github.com/atelierbram/Base4Tone */
 /* https://github.com/atelierbram/Base4Tone-prism/blob/master/output/prism-b4t_classic-i-dark.css */
 
 code[class*='language-'],
 pre[class*='language-'] {
-  color: #f6f9f8;
+  color: #f6f9f6;
   background: none;
   font-family: Consolas, Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   text-align: left;
@@ -26,12 +26,12 @@ pre[class*='language-'] {
 
 pre[class*='language-']::-moz-selection, pre[class*='language-'] ::-moz-selection,
 code[class*='language-']::-moz-selection, code[class*='language-'] ::-moz-selection {
-  background: #007061;
+  background: #0a7616;
 }
 
 pre[class*='language-']::selection, pre[class*='language-'] ::selection,
 code[class*='language-']::selection, code[class*='language-'] ::selection {
-  background: #007061;
+  background: #0a7616;
 }
 
 // Code blocks */;
@@ -43,7 +43,7 @@ pre[class*='language-'] {
 
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background: #1b2221;
+  background: #1d201d;
 }
 
 // Inline code */;
@@ -57,11 +57,11 @@ pre[class*='language-'] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #404f4d;
+  color: #444b45;
 }
 
 .token.punctuation {
-  color: #404f4d;
+  color: #444b45;
 }
 
 .namespace {
@@ -74,7 +74,7 @@ pre[class*='language-'] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-  color: #24cc38;
+  color: #b9cf17;
 }
 
 .token.selector,
@@ -83,11 +83,11 @@ pre[class*='language-'] {
 .token.char,
 .token.builtin,
 .token.inserted {
-  color: #93ece0;
+  color: #97eda1;
 }
 
 .token.id {
-  color: #8a8994;
+  color: #858799;
 }
 
 .token.operator,
@@ -95,26 +95,26 @@ pre[class*='language-'] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #7e70e6;
-  background: #1b222180;
+  color: #6577ec;
+  background: #1d201d80;
 }
 
 .token.number,
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-  color: #c2d9ff;
+  color: #a4e6ef;
 }
 
 .token.function,
 .token.class-name {
-  color: #24cc38;
+  color: #b9cf17;
 }
 
 .token.regex,
 .token.important,
 .token.variable {
-  color: #7e70e6;
+  color: #6577ec;
 }
 
 .token.important,
@@ -140,8 +140,8 @@ pre[data-line] {
   right: 0;
   padding: 0;
   margin-top: 1em; /* Same as .prism’s padding-top */;
-  background: #36444254;
-  background: linear-gradient(to right, #36444254 70%, #36444200);
+  background: #3a403b54;
+  background: linear-gradient(to right, #3a403b54 70%, #3a403b00);
   pointer-events: none;
 
   line-height: inherit;
@@ -156,8 +156,8 @@ pre[data-line] {
   left: .6em;
   min-width: 1em;
   padding: 0 .5em;
-  background-color: #829b9854;
-  color: #c6d2d0;
+  background-color: #89948a54;
+  color: #c8d0c9;
   font: bold 65%/1.5 sans-serif;
   text-align: center;
   vertical-align: .3em;
@@ -195,7 +195,7 @@ pre[class*='language-'].line-numbers > code {
   left: -3.8em;
   width: 3em; /* works for line-numbers below 1000 lines */;
   letter-spacing: -1px;
-  border-right: 1px solid #1b222180;
+  border-right: 1px solid #1d201d80;
 
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -212,7 +212,7 @@ pre[class*='language-'].line-numbers > code {
 
 .line-numbers-rows > span:before {
   content: counter(linenumber);
-  color: #2d3937;
+  color: #303631;
   display: block;
   padding-right: 0.8em;
   text-align: right;

@@ -1,4 +1,4 @@
-/* colorscheme: B4T_262 by Bram de Haan */
+/* colorscheme: B4T_Classic_R by Bram de Haan */
 /* author: Bram de Haan - https://github.com/atelierbram/Base4Tone */
 /* https://github.com/atelierbram/Base4Tone-prism/blob/master/output/prism-b4t_classic-r-dark.css */
 
@@ -87,7 +87,7 @@ pre[class*='language-'] {
 }
 
 .token.id {
-  color: #998c85;
+  color: #94898d;
 }
 
 .token.operator,
@@ -95,7 +95,7 @@ pre[class*='language-'] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #da6b2b;
+  color: #dd407c;
   background: #1e1d2080;
 }
 
@@ -114,7 +114,7 @@ pre[class*='language-'] {
 .token.regex,
 .token.important,
 .token.variable {
-  color: #da6b2b;
+  color: #dd407c;
 }
 
 .token.important,
