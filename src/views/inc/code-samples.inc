@@ -167,5 +167,5 @@ end</code></pre></div>
         if _debug: sys.stderr.write(&#39;entering BaseHTMLProcessor, encoding=%s\n&#39; % self.encoding)
         sgmllib.SGMLParser.__init__(self)</code></pre></div>
 </section>
-<section class="download"><a href="<?= $repoUrlMaster; ?>output/prism-base4tone_<?= $theme; ?>-<?= $bg ?>.css" class="button">download theme</a></section>
+<section class="download"><a href="<?= $repoUrlMaster; ?>output/prism-<?= $theme; ?>-<?= $bg ?>.css" class="button">download theme</a></section>
 <?php ?>
