@@ -1,7 +1,7 @@
 <?php ob_start('compress_nav'); ?>
 <nav class="nav-themes" id="navThemes">
   <ul class="nav_list nav-themes_list">
-    <li class='<?php if ($themeId=="Index") echo "current"; ?>'><a href="<?= $rootUrl; ?>">Home</a></li>
+    <li class='<?php if ($themeId=="Index") echo "current"; ?>'><a href="<?= $rootUrl; ?>b4t_classic-a/">Home</a></li>
     <li class='<?php if ($themeId=="b4t_classic-a") echo "current"; ?>'><a href="<?= $rootUrl; ?>b4t_classic-a/<?= $bg ?>/">B4T_Classic-A</a></li>
     <li class='<?php if ($themeId=="b4t_classic-b") echo "current"; ?>'><a href="<?= $rootUrl; ?>b4t_classic-b/<?= $bg ?>/">B4T_Classic-B</a></li>
     <li class='<?php if ($themeId=="b4t_classic-c") echo "current"; ?>'><a href="<?= $rootUrl; ?>b4t_classic-c/<?= $bg ?>/">B4T_Classic-C</a></li>
