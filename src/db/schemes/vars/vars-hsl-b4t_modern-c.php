@@ -1,7 +1,7 @@
 <?php
 $scheme = "Base4Tone_Modern-C";
 $author = "Bram de Haan";
-$url_project = "https://github.com/atelierbram/Base4Tone";
+$url_project = "https://github.com/atelierbram/Base4Tone-prism";
 
 include_once "vars-master-palette-24-hues.php";
 

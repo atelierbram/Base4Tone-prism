@@ -1,5 +1,5 @@
 /* colorscheme: B4T_Classic_S by Bram de Haan */
-/* author: Bram de Haan - https://github.com/atelierbram/Base4Tone */
+/* author: Bram de Haan - https://github.com/atelierbram/Base4Tone-prism */
 /* https://github.com/atelierbram/Base4Tone-prism/blob/master/output/prism-b4t_classic-s-dark.css */
 
 code[class*='language-'],
@@ -34,7 +34,7 @@ code[class*='language-']::selection, code[class*='language-'] ::selection {
   background: #7524a8;
 }
 
-// Code blocks */;
+/* Code blocks */
 pre[class*='language-'] {
   padding: 1em;
   margin: .5em 0;
@@ -46,7 +46,7 @@ pre[class*='language-'] {
   background: #1f1d20;
 }
 
-// Inline code */;
+/* Inline code */
 :not(pre) > code[class*='language-'] {
   padding: .1em;
   border-radius: .3em;
@@ -139,7 +139,7 @@ pre[data-line] {
   left: 0;
   right: 0;
   padding: 0;
-  margin-top: 1em; /* Same as .prism’s padding-top */;
+  margin-top: 1em; /* Same as .prism’s padding-top */
   background: #3e3a4054;
   background: linear-gradient(to right, #3e3a4054 70%, #3e3a4000);
   pointer-events: none;
@@ -193,7 +193,7 @@ pre[class*='language-'].line-numbers > code {
   top: -3px;
   font-size: 100%;
   left: -3.8em;
-  width: 3em; /* works for line-numbers below 1000 lines */;
+  width: 3em; /* works for line-numbers below 1000 lines */
   letter-spacing: -1px;
   border-right: 1px solid #1f1d2080;
 

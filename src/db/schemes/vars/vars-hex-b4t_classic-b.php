@@ -1,7 +1,7 @@
 <?php
 $scheme = "B4T_Classic_B";
 $author = "Bram de Haan";
-$url_project = "https://github.com/atelierbram/Base4Tone";
+$url_project = "https://github.com/atelierbram/Base4Tone-prism";
 
 include_once "vars-master-palette-24-hues-hex.php";
 
