@@ -1,5 +1,5 @@
 <?php
-$scheme = "B4T_retro";
+$scheme = "B4T_Modern_W";
 $author = "Bram de Haan";
 $url_project = "https://github.com/atelierbram/Base4Tone";
 
